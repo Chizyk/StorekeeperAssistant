@@ -39,7 +39,6 @@ namespace StorekeeperAssistant.API
             services.AddSwaggerGen();
         }
 
-
         public void ConfigureContainer(ContainerBuilder builder)
         {
             builder.RegisterModule(new MediatorModule());
